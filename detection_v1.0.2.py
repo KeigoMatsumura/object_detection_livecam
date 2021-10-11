@@ -23,7 +23,7 @@ def detection(ambiID, ambiKey, videoURL, img_path):
 
     if not os.path.exists(img_path):
         os.mkdir(img_path)
-        exec_path_neo = os.path.join(exec_path, img_path)
+    exec_path_neo = os.path.join(exec_path, img_path)
     file_name = img_path + now_time + '.jpg'
     c_name = 'CAP@' + file_name
     d_name = 'DET@' + file_name
