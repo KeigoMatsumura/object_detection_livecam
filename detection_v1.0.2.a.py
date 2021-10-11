@@ -14,7 +14,7 @@ def detection(ambiID, ambiKey, videoURL, img_path):
     #get captured time
     now_time = datetime.datetime.now().strftime(':%H-%M-%S:%m%d:%Y')
 
-    exec_path = os.getcwd()
+    exec_path = r'/home/keigo/sub-workspace/object_detection_simplified'
 
     video_pafy = pafy.new(videoURL)
     video_from_url = video_pafy.getbest().url
