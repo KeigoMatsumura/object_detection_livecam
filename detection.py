@@ -34,7 +34,7 @@ def detection(ambiID, ambiKey, videoURL, img_path):
 
     detector = ObjectDetection()
     detector.setModelTypeAsRetinaNet()
-    detector.setModelPath(r'resnet50_coco_best_v2.1.0.h5')
+    detector.setModelPath(r'./models/resnet50_coco_best_v2.1.0.h5')
     detector.loadModel()
     detections = detector.detectObjectsFromImage(input_image=c_path, output_image_path=d_path, minimum_percentage_probability=min_probability)
 
