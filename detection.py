@@ -60,8 +60,8 @@ def main():
     #Shibuya-Scramble-Square
     detection(41296, "4f9f8cae7431c9d6", "https://www.youtube.com/watch?v=HpdO5Kq3o7Y", "Shibuya")
     #NeyYork-Times-Square
-    detection(41299, "2f13b038f5d0449d", "https://www.youtube.com/watch?v=EHkMjfMw7oU", "Kabuki-cho")
+    detection(41299, "2f13b038f5d0449d", "https://www.youtube.com/watch?v=EHkMjfMw7oU", "Kabukicho")
     #osaka-Dotonbori
-    detection(41308, "0a60eee7eef894fb", "https://www.youtube.com/watch?v=Put1j7kemuI", "Do-ton-bori")
+    detection(41308, "0a60eee7eef894fb", "https://www.youtube.com/watch?v=Put1j7kemuI", "Dotonbori")
 if __name__ == "__main__":
     main()
