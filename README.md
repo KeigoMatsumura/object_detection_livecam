@@ -1,7 +1,7 @@
 ## Installation
 
 ### Requirements
-The code in this repository requires Python 3.7.6 We advise you to run the code inside an Anaconda environment:
+The code in this repository requires Python 3.7.6 I advise you to run the code inside an Anaconda environment:
 
 ```
 conda create -n od-livecam python=3.7.6
