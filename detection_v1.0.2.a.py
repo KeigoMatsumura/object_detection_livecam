@@ -61,10 +61,10 @@ def detection(ambiID, ambiKey, videoURL, img_path):
 
 def main():
     #Shibuya-Scramble-Square
-    detection(42462, "078af68a80f65911", "https://www.youtube.com/watch?v=HpdO5Kq3o7Y", "Shibuya")
+    detection(42470, "c232d75651841d44", "https://www.youtube.com/watch?v=HpdO5Kq3o7Y", "Shibuya")
     #NeyYork-Times-Square
-    detection(42462, "078af68a80f65911", "https://www.youtube.com/watch?v=EHkMjfMw7oU", "Kabukicho")
+    detection(42471, "940d16f95eceec26", "https://www.youtube.com/watch?v=EHkMjfMw7oU", "Kabukicho")
     #osaka-Dotonbori
-    detection(42462, "078af68a80f65911", "https://www.youtube.com/watch?v=Put1j7kemuI", "Dotonbori")
+    detection(42472, "fd997cde1ffe93e1", "https://www.youtube.com/watch?v=Put1j7kemuI", "Dotonbori")
 if __name__ == "__main__":
     main()
