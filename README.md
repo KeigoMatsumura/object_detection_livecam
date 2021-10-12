@@ -12,7 +12,7 @@ Next, clone the repository and install the requirements:
 
 ```
 cd $HOME
-git clone https://github.com/KeigoMatsumura/object_detection_simplified.git
+git clone https://github.com/KeigoMatsumura/object_detection_livecam.git
 cd object_detection_livecam
 pip install -r requirements.txt
 pip install git+https://github.com/AmbientDataInc/ambient-python-lib.git
