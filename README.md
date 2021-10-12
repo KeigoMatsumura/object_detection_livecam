@@ -20,6 +20,7 @@ pip install git+https://github.com/AmbientDataInc/ambient-python-lib.git
 ### Model
 The model used in this repo can be downloaded as follows:
 ```
+mkdir models
 cd models/
 wget https://github.com/fizyr/keras-retinanet/releases/download/0.5.1/resnet50_coco_best_v2.1.0.h5
 ```
